@@ -1,0 +1,17 @@
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 100px;
+    margin-left: 100px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.user-container {
+    background-color: white;
+    padding: 20px;
+}

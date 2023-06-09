@@ -1,0 +1,49 @@
+[
+  {
+    "_id": "647ff878b0a8efb0e4da72b7",
+    "balance": "$3,210.22",
+    "img": "./Images/Push-up.jpg",
+    "age": "18-30",
+    "name": "Push Up",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+  },
+  {
+    "_id": "647ff878bb0bd670b49608ee",
+    "balance": "$1,698.77",
+    "img": "./Images/Pull-up.jpg",
+    "age": "18-30",
+    "name": "Pull Up",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+  },
+  {
+    "_id": "647ff87812ec0c254121707f",
+    "balance": "$1,106.91",
+    "img": "./Images/Squat.jpg",
+    "age": "18-30",
+    "name": "Squat",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+  },
+  {
+    "_id": "647ff878e22efaa22e82911e",
+    "balance": "$1,239.22",
+    "img": "./Images/Jumping-jack.jpg",
+    "age": "18-30",
+    "name": "Jumping Jacks",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+  },
+  {
+    "_id": "647ff878f81b63dae946af4a",
+    "balance": "$1,488.80",
+    "img": "./Images/Leg-raise.jpg",
+    "age":"18-30",
+    "name": "Leg Raise",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+  },
+  {
+    "_id": "647ff87857574eda08437bae",
+    "img": "./Images/Plank.jpg",
+    "age": "18-30",
+    "name": "Plank",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+  }
+]

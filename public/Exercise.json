@@ -1,0 +1,44 @@
+[
+  {
+    "id": "647ff878b0a8efb0e4da72b7",
+    "img": "./Images/Push-up.jpg",
+    "age": "18-30",
+    "name": "Push Up",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "647ff878bb0bd670b49608ee",
+    "img": "./Images/Pull-up.jpg",
+    "age": "18-30",
+    "name": "Pull Up",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "647ff87812ec0c254121707f",
+    "img": "./Images/Squat.jpg",
+    "age": "18-30",
+    "name": "Squat",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "647ff878e22efaa22e82911e",
+    "img": "./Images/crunch.jpg",
+    "age": "18-30",
+    "name": "Abs Crunch",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "647ff878f81b63dae946af4a",
+    "img": "./Images/Leg-raise.jpg",
+    "age":"18-30",
+    "name": "Leg Raise",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": "647ff87857574eda08437bae",
+    "img": "./Images/Plank.jpg",
+    "age": "18-30",
+    "name": "Plank",
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  }
+]

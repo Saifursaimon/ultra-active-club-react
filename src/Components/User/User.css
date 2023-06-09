@@ -79,6 +79,18 @@
     margin-bottom: 20px;
 }
 
+.exercise-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 0 15px 0 15px;
+    margin-top: 50px;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+
 .break-time {
     display: flex;
     align-items: center;
@@ -90,9 +102,7 @@
     font-weight: 500;
 }
 
-#time {
-    color: rgba(108, 108, 108, 0.882);
-}
+
 
 .btn-completed {
     width: 90%;

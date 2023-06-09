@@ -1,12 +1,21 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import userImg from "../../utilities/user.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocation } from "@fortawesome/free-solid-svg-icons";
 import "./User.css";
-const User = () => {
-  const addBreakTime = (time) => {
-    const timeField = document.getElementById("time");
+const User = ({ exerciseTime }) => {
+  let newExerciseTime = 0;
+  for (const time of exerciseTime) {
+    newExerciseTime = newExerciseTime + time;
+  }
+  const addBreakTime = (time, id) => {
+    const timeField = document.getElementById(id);
     timeField.innerText = time;
+  };
+  const handleComplete = () => {
+    toast.info("Congratulations You have completed your activities");
   };
   return (
     <div className="user">
@@ -44,7 +53,7 @@ const User = () => {
           <button
             href="10s"
             onClick={() => {
-              addBreakTime("10 seconds");
+              addBreakTime("10 seconds", "B-time");
             }}
           >
             10s
@@ -52,7 +61,7 @@ const User = () => {
           <button
             href="20s"
             onClick={() => {
-              addBreakTime("20 seconds");
+              addBreakTime("20 seconds", "B-time");
             }}
           >
             20s
@@ -60,7 +69,7 @@ const User = () => {
           <button
             href="30s"
             onClick={() => {
-              addBreakTime("30 seconds");
+              addBreakTime("30 seconds", "B-time");
             }}
           >
             30s
@@ -68,7 +77,7 @@ const User = () => {
           <button
             href="40s"
             onClick={() => {
-              addBreakTime("40 seconds");
+              addBreakTime("40 seconds", "B-time");
             }}
           >
             40s
@@ -77,12 +86,19 @@ const User = () => {
       </div>
       <div className="exercise-detail">
         <h2>Exercise Details</h2>
+        <div className="exercise-time">
+          <p>Exercise Time :</p>
+          <p>{newExerciseTime} seconds</p>
+        </div>
         <div className="break-time">
           <p>Break Time :</p>
-          <p id="time"></p>
+          <p id="B-time"></p>
         </div>
       </div>
-      <button className="btn-completed">Activity Completed</button>
+      <button className="btn-completed" onClick={handleComplete}>
+        Activity Completed
+      </button>
+      <ToastContainer position="top-center"></ToastContainer>
     </div>
   );
 };

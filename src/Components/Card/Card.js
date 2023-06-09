@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
-const Card = ({ exercise }) => {
-  const { img, name, age, info } = exercise;
+const Card = ({ exercise, addExerciseTime }) => {
+  const { img, name, age, info, time } = exercise;
   return (
     <div className="card">
       <img src={img} alt=""></img>
@@ -9,8 +9,16 @@ const Card = ({ exercise }) => {
         <h3>{name}</h3>
         <p>{info}</p>
         <h5>For Age : {age}</h5>
+        <p>Time Required : {time}s</p>
       </div>
-      <button className="btn-card">Add To List</button>
+      <button
+        className="btn-card"
+        onClick={() => {
+          addExerciseTime(time);
+        }}
+      >
+        Add To List
+      </button>
     </div>
   );
 };

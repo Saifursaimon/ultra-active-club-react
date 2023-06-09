@@ -4,6 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocation } from "@fortawesome/free-solid-svg-icons";
 import "./User.css";
 const User = () => {
+  const addBreakTime = (time) => {
+    const timeField = document.getElementById("time");
+    timeField.innerText = time;
+  };
   return (
     <div className="user">
       <div className="user-details">
@@ -37,12 +41,48 @@ const User = () => {
       <div className="break">
         <h2>Add A Break</h2>
         <div className="seconds">
-          <a href="">10s</a>
-          <a href="">20s</a>
-          <a href="">30s</a>
-          <a href="">40s</a>
+          <button
+            href="10s"
+            onClick={() => {
+              addBreakTime("10 seconds");
+            }}
+          >
+            10s
+          </button>
+          <button
+            href="20s"
+            onClick={() => {
+              addBreakTime("20 seconds");
+            }}
+          >
+            20s
+          </button>
+          <button
+            href="30s"
+            onClick={() => {
+              addBreakTime("30 seconds");
+            }}
+          >
+            30s
+          </button>
+          <button
+            href="40s"
+            onClick={() => {
+              addBreakTime("40 seconds");
+            }}
+          >
+            40s
+          </button>
         </div>
       </div>
+      <div className="exercise-detail">
+        <h2>Exercise Details</h2>
+        <div className="break-time">
+          <p>Break Time :</p>
+          <p id="time"></p>
+        </div>
+      </div>
+      <button className="btn-completed">Activity Completed</button>
     </div>
   );
 };
